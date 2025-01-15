@@ -1,0 +1,16 @@
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+
+namespace EMedicine.Web.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class UsersController : ControllerBase
+    {
+        private readonly IConfiguration _configuration;
+        public UsersController(IConfiguration configration)
+        {
+            _configuration = configration;
+        }
+    }
+}

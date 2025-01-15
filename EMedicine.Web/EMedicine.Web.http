@@ -1,0 +1,6 @@
+@EMedicine.Web_HostAddress = http://localhost:5209
+
+GET {{EMedicine.Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
